@@ -1,0 +1,93 @@
+.whole-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.poster {
+  height: 30rem;
+  width: 21rem;
+  padding: 2rem;
+}
+
+.poster:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.welcome-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 93vh;
+}
+
+.get-started {
+  font-size: 3.2rem;
+  padding: 1rem;
+  background-color: #5bccf6;
+  color: #333;
+  border: 2px solid black;
+  font-family: "Raleway", sans-serif;
+}
+
+.get-started:hover {
+  cursor: pointer;
+  background-color: #333;
+  color: #5bccf6;
+  transition: all 0.3s;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00b4cc;
+  border-right: none;
+  padding: 5px;
+  height: 3.6rem;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9dbfaf;
+}
+
+.searchTerm:focus {
+  color: #00b4cc;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00b4cc;
+  background: #00b4cc;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the
+ wrap to see the search bar change!*/
+.wrap {
+  margin: auto;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.pagination-container {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+  padding-bottom: 2rem;
+}

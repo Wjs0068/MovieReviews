@@ -1,0 +1,153 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 10;
+}
+
+.modal-main {
+  position: fixed;
+  background: white;
+  width: 80%;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+
+.img-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+}
+
+.image {
+  height: 40rem;
+  width: 30rem;
+  justify-self: start;
+  margin-bottom: 2rem;
+}
+.para {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.2rem;
+}
+
+.headerFour {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.6rem;
+}
+.text-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: start;
+  gap: 2rem;
+}
+
+.rating {
+  text-align: left;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.2rem;
+}
+
+.cast {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex flex-start;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.2rem;
+}
+
+.person {
+  text-align: left;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.2rem;
+}
+
+.review-btn {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.6rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 9px;
+  background-color: #fcde67;
+
+  color: #111;
+}
+
+.review-btn:hover {
+  color: #fcde67;
+  background-color: #111;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.reviews-container {
+  display: grid;
+
+  grid-template-columns: 1fr;
+
+  justify-content: start;
+}
+
+.review-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 2rem;
+  margin-bottom: 2rem;
+  font-family: "Raleway", sans-serif;
+}
+
+.review-container:first-child {
+  margin-top: 3rem;
+}
+
+.date {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: black;
+  font-family: "Raleway", sans-serif;
+  justify-self: start;
+}
+
+.review {
+  font-size: 1.6rem;
+  text-align: left;
+
+  overflow-wrap: break-word;
+  hyphens: manual;
+  color: #333;
+  font-family: "Raleway", sans-serif;
+}
+
+.delete-btn {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.4rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 9px;
+  background-color: #fcde67;
+
+  color: #111;
+}
+
+.delete-btn:hover {
+  color: #fcde67;
+  background-color: #111;
+  cursor: pointer;
+  transition: all 0.4s;
+}

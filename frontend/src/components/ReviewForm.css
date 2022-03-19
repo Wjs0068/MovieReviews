@@ -1,0 +1,50 @@
+.reviews {
+  border: none;
+  max-width: 50rem;
+  min-width: 50rem;
+  border: 1px solid black;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  height: 15rem;
+}
+
+.btn-container {
+  display: grid;
+  row-gap: 4rem;
+}
+.submit-btn {
+  color: #111;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 1.4rem;
+  border: none;
+  background-color: #5bccf6;
+  padding: 1rem;
+  border-radius: 9px;
+}
+
+.submit-btn:hover {
+  background-color: #111;
+  color: #5bccf6;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.exit-btn {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.4rem;
+  padding: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 9px;
+  background-color: #fcde67;
+
+  color: #111;
+}
+
+.exit-btn:hover {
+  color: #fcde67;
+  background-color: #111;
+  cursor: pointer;
+  transition: all 0.4s;
+}
